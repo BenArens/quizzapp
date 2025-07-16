@@ -1,0 +1,104 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2{
+    width: 100%;
+    text-align: center;
+}
+ h5{
+    font-weight: 100;
+}
+
+.heading-active{
+    color: white;
+    border-left: 4px solid white;
+}
+
+.myMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card.myCard {
+    max-width: 800px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    position: relative;
+    height: 500px;
+    background-color: #F7F7F7;
+}
+
+.container.myCard-zwei{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: 200px;
+    min-
+    background-color: #F7F7F7;
+}
+.content {
+    width: 90%;
+    text-align: center;
+    z-index: 1;
+}
+
+.content h2{
+    margin-top: 20%;
+}
+.bg-image {
+    background-image: url(./designvorlage/brainbg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-menu{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgb(66 66 115);
+    border-radius: 0.375rem 0 0 0.375rem;
+    height: 100%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 3;
+}
+
+.card-menu img{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.start-img{
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    width: auto;
+    height: 100%;
+}
+
+.start-button{
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    z-index: 1;
+}
+
+.btn{
+    background-color: rgb(255, 146, 20);
+    border-color: rgb(255, 146, 20);
+    border: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+
